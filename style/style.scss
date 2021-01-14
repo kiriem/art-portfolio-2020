@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;700&display=swap');
+
+//main color
+
+$main-red: #EE5F6F;
+$main-white: #EEEFD8;
+$main-green: #D5E657;
+$main-blue: #80C0D8;
+$main-black: #7C6D64;
+
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+//bootstrap拡張
+
+.jumbotron{
+    margin-bottom: 0 !important;
+}
+
+.bg-main-blue{
+    background-color: $main-blue;
+}
+
+.bg-main-white{
+    background-color: $main-white;
+}
+
+//その他
+.text{
+    line-height: 2;
+    letter-spacing: 0.2em;
+}
