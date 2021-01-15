@@ -1,15 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;700&display=swap");
 html {
-  scroll-behavior: smooth;
+  margin-top: 50px;
 }
 
 body {
-  margin-top: 50px;
   font-family: 'Noto Sans JP', sans-serif;
 }
 
 .jumbotron {
   margin-bottom: 0 !important;
+  height: 400px;
 }
 
 .bg-main-blue {
@@ -66,9 +66,20 @@ body {
 
 .img-square {
   width: 100%;
-  height: 300px;
-  height: width;
+  height: 400px;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.jumbotron {
+  background-image: url("../img/header.png");
+  background-size: cover;
+  color: white;
+}
+
+.profile-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
 }
 /*# sourceMappingURL=style.css.map */
