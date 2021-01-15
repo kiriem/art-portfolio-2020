@@ -1,15 +1,9 @@
-<?php
-
-ini_set("display_error", true);
-
-?>
-
 <!DOCTYPE html>
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>KYRIE's Portfolio</title>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -26,6 +20,15 @@ ini_set("display_error", true);
         }); 
 
     </script>
+
+    <meta property="og:title" content="KYRIE's Portfolio">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://inpw.jp/ceo/art-portfolio">
+    <meta property="og:image" content="https://inpw.jp/ceo/art-portfolio/img/ogp.png">
+    <meta property="og:site_name" content="KYRIE's Portfolio">
+    <meta property="og:description" content="美術教育事例研究 最終課題">
+    <meta property="og:locale" content="ja_JP">
+    <meta name="twitter:card" content="summary_large_image">
 
 
 </head>
@@ -461,7 +464,7 @@ EOF;
                 
                 <o class="text my-4">絵をじっくり見て、気づいたことを書いてください。</p>
 
-                <img src="img/05-01.png" height="500px" alt="">
+                <img src="img/05-01.jpg" height="500px" alt="">
 
             </div>
 
